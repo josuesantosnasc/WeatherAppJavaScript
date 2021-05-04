@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-image: url("paisagem-172856282.jpg");
+  background-size: cover;
+  background-position: top center;
+}
+
+.main-content {
+  text-align: center;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+}
+
+.nav-location {
+  padding-bottom: 20px;
+}
+
+.nav-location input {
+  height: 40px;
+  width: 34vw;
+  min-width: 34vw;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+  color: #3b3838;
+}
+
+.nav-location input:focus {
+  background-color: #ccc9c0;
+}
+.content {
+  color: #edebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.content .city {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+.content .date {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.content .temp {
+  padding: 35px 0px 35px 0px;
+  font-size: 90px;
+}
+
+.content .weather-condition {
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.content .min-max-temp {
+  font-size: 30px;
+  padding-top: 20px;
+}
