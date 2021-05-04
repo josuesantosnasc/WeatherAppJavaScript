@@ -52,21 +52,13 @@ function locationResult(cityName) {
         ".main-content .content .weather-condition"
       );
       weatherToday.innerText = data.weather[0].main;
-      //Minimum and maximum temperature
-      /*
-      function Faren_to_Celsius(t) {
-        //Farenheit to Celsius
-        let temp = (t - 32) / 1.8;
-        return temp;
-      }
-      */
+    
       let min_max = document.querySelector(
         ".main-content .content .min-max-temp"
       );
       min_max.innerText = `${Math.round(data.main.temp_min)}°C/${Math.round(
         data.main.temp_max
       )}°C`;
-      console.log(type(data.main.temp_min));
-      console.log(Faren_to_Celsius(33));
+      
     });
 }
